@@ -2,4 +2,4 @@ lint:
 	ruff check --fix
 
 dev:
-	uvicorn run:app --reload
+	uvicorn app.main:app --reload
